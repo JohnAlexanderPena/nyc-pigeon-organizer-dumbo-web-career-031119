@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
              #options = {:purple => [Array of Names]}
      options.each do |option, pigeons|
              #options = :purple => ["Theo", "Peter"..]
-              #pigeons = [:color] ["Theo", "Peter", ...]
+              #pigeons = [:color] ["Theo", "Peter", ..]
        pigeons.each do |pigeon|
          new_hash[pigeon] ||= {}
          binding.pry
