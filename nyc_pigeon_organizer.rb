@@ -11,7 +11,6 @@ def nyc_pigeon_organizer(data)
               #pigeons = [:color] ["Theo", "Peter", "Lucky"]
        pigeons.each do |pigeon|
          new_hash[pigeon] ||= {}
-         binding.pry
          new_hash[pigeon][colors_gender] ||= []
         new_hash[pigeon][colors_gender] << option.to_s
       end
